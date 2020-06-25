@@ -1,0 +1,1220 @@
+/* CSS para "index.html" */
+/* Style for confirm cart*/
+
+body{
+	margin: 0;
+	padding-top:0px;
+        z-index: 2;
+}
+
+#productpage{
+    padding-top: 10%;
+}
+
+#contactar{
+	float: right;
+	padding: 1.5% 5% 0% 0%;
+	color: rgb(151,151,151);
+	position: relative;
+	font-family: Cambria, Helvetica, sans-serif;
+	font-size: 1.3vw;
+}
+
+#teste{
+	background-image: url("imagens/fundo.jpg");
+}
+
+form.formSearch{
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    text-align: center;
+    z-index: 3;
+}
+
+form.formSearch input[type=text] {
+  padding: 0.3vw;
+  font-size: 15px;
+  border: 1px solid grey;
+  width: 30vw;
+  background: #f1f1f1;
+}
+
+form.formSearch input[type=submit] {
+  padding: 0.3vw;
+  background: rgba(255, 177, 59);
+  color: white;
+  margin-left: 0;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+    width:5vw;
+}
+
+form.formSearch select {
+  width: 6vw;
+  padding: 0.3vw;
+  background: grey;
+  color: white;
+  font-size: 15px;
+  margin-right: 0;
+  border: 1px solid grey;
+  border-right: none;
+  cursor: pointer;
+}
+
+
+#bar{
+	display: inline-block; 
+	width: 100%;
+}
+
+#bar button{
+	margin: 2% 0% 0% 20%;
+	height: auto;
+}
+
+
+#logo{
+	position: relative;
+	float: left;
+	width: 20%;
+	margin-left: 2%;
+}
+
+#menu img {
+	display: inline-block;
+	width: 10%;
+	height: auto;
+}
+
+#All_products{
+	margin-left: 23%;
+	word-spacing: 2px;
+	display: inline-block;
+	padding-bottom: 0.5%;
+}
+
+#All_products a {
+	color: #ddd;
+	font-family: Cambria, Helvetica, sans-serif;
+	font-size: 1.5vw;
+	
+}
+
+#All_products img{
+	width: 2%;
+	height: auto;
+	padding-left: 5%;
+}
+
+
+#main{
+	width: 93%;
+	padding: 0px;	
+	margin: auto;
+}
+
+#header{
+	background-color: #0f4c81; 
+	font-family: Cambria, Helvetica, sans-serif;
+	font-size: 1.5vw;
+	color: white;
+	align-items: center;
+	width: 93%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+	
+}
+
+
+.title2{
+	font-size: 2vw;
+	padding: 3% 0% 0% 5%;
+}
+
+.SELLERS{
+	/*width: 75%;*/
+	width: 15vw;
+	border-radius: 10px;
+	border-style: groove;
+	height: 22vw;
+}
+
+.SELLERS p{
+	font-size: 0.9vw;
+	padding-left: 13%;
+}
+
+.SELLERS img{
+	width: 75%;
+	padding: 13% 0% 0% 13%;
+	height: 30%;
+}
+
+.SELLERS button{
+	background-color: rgba(255, 177, 59);
+	color: white;
+	padding: 2% 22%;
+	margin: 0% 0% 6% 22%;
+	border: none;
+	font-size: 1vw;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10%;
+}
+
+.SELLERS span{
+	font-size: 1.7vw;
+	color:red;
+}
+
+.Products{
+	width: 40vw;
+	height: 12vw;
+	border-radius: 10px;
+	border-style: groove;
+	margin-top: 20px;
+	display: flex;
+    position: relative;
+
+}
+
+.Products img{
+	width: 45%;
+	height: 80%;
+    border-radius: 8px;
+    position: absolute;
+    left: 2%;
+    top: 10%;
+}
+
+
+.Products h2{
+    font-size: 100%;
+      position: absolute;
+        top: 5%;
+        left: 50%;
+}
+
+.Products p{
+    color: gray;
+}
+	
+.Price{
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+	
+}
+
+.Price label{
+	font-size: 170%;
+	color: red;
+}
+
+priceButton{
+	background-color: rgba(255, 177, 59);
+	color: white;
+	border: none;
+	font-size: 1vw;
+	border-radius: 5px;
+	padding: 1% 15%;
+	cursor: pointer;
+       
+}
+.modal {
+  position: relative;
+  display: none;/* Hidden by default */
+}
+
+/* Modal Content */
+.modal-content {
+ background-color: white;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+   float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*============================*/
+
+.settings{
+	margin: 10% 10% 0% 0%;
+        height: auto;
+	width: 90%;
+}
+
+.settings label{
+	margin-left: 1%;
+}
+
+.settings_inside{
+	display:inline-block; 
+	width: 100%;
+	border: 1px solid rgba(200, 200, 200);
+}
+
+.settings_inside div{
+	display:inline-block; 
+	width: 50%;
+}
+
+.settings_inside h2{
+	padding-left: 2%;
+}
+
+.settings_inside label{
+	padding-left: 2%;
+	color: rgb(200, 200, 202);
+	font-size: 1.2vw;
+}
+
+.infoForm{
+    position: relative;
+    text-align: right;
+}
+
+.settings button{
+	background-color: #0F4C81;
+	border: none;
+	border-radius: 10px;
+	width: 15%;
+	color: white;
+	cursor: pointer;
+	padding: 0.5% 0.5%;
+}
+
+.settings input{
+	border: solid #B4B4B4;
+	border-radius: 10px;
+	width: 20%;
+	padding: 0.5% 0.5%;
+}
+.previous{
+	border: 1px solid rgba(200, 200, 200);
+	width: 80%;
+	margin-left: 15%;
+}
+
+.previous label{
+	display: inline-block;
+	color: white;
+	padding: 1% 0% 0% 1%;
+	font-size: 1.3vw;
+}
+
+.previous p {
+	padding: 1% 0% 1% 2%;
+}
+
+.previous img{
+	width: 25%;
+	height: 100%;
+	padding: 2%;
+}
+
+.previous div{
+	width: 100%;
+}
+
+
+.ordered button{
+	background-color: rgba(255, 177, 59);
+	border: none;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	width: 30%;
+	padding: 1%;
+	margin: 15% 20% 0% 0%;	
+}
+
+.previous span{
+	margin-top: 2%;
+	display: inline-block;
+}
+
+/*============================================*/
+#previous2{
+	background-color: rgb(212, 212, 212);
+	display: flex;
+}
+
+
+#previous2 button{
+	width: 50%;
+	padding: 2%;
+	background-color: rgb(255, 177, 62);
+	margin: 12% 15% 0% 0%;
+}
+
+.previous2_set{
+	display: flex;  
+	border: 1px solid rgba(200, 200, 200);
+}
+.ordered{
+	display: flex;
+	
+}
+
+.ordered div{
+	border: none;
+	padding-top: 1.5%;
+}
+
+.Table_filters{
+	display: inline-block;
+	width: 16%;
+	margin: 2% 0% 0% 5%;
+}
+
+.Filters{
+	background-color: rgb(15, 76, 129);
+	color: white;
+	padding: 1% 1% 1% 2%;
+}
+
+.Table_filters div{
+	border-width: 1px;
+	border-style: groove;
+}
+
+.Table_filters p{
+	font-size:1.4vw;
+	padding-left: 2%;
+
+}
+
+.Table_filters label{
+	font-size: 1.2vw;
+}
+
+form.formFilter input[type=submit] {
+    background-color: rgba(255, 177, 59);
+    color: white;
+    border: none;
+    font-size: 1vw;
+    border-radius: 5px;
+    padding: 1% 15%;
+    cursor: pointer;
+    position: relative;
+    left: 22%;
+    margin-bottom: 10px;
+}
+
+#Cart{
+	margin: 2% 2% 0% 20%;
+	width: 15vw;
+}
+
+#Cart div{
+	border-width: 1px;
+	border-style: groove;
+}
+
+.cartCross{
+    position: absolute;
+    right: 10%;
+}
+
+.cartPrice{
+    position: absolute;
+    right: 10%;
+    margin-top: 0.4%;
+    color: red;
+    font: 100%;
+}
+
+
+#cartButton{
+    background-color: rgba(255, 177, 59);
+    color: white;
+    border: none;
+    font-size: 1vw;
+    border-radius: 5px;
+    padding: 1% 15%;
+    cursor: pointer;
+    position: relative;
+    left: 22%;
+    margin-bottom: 10px;
+}
+
+.dropbtn {
+	color: white;
+	padding: 16px;
+	border: none;
+	cursor: pointer;
+}
+  
+  
+.dropdown {
+    position: absolute;
+    right: 15%;
+    top: 8%;
+    display: inline-block;
+    
+}
+  
+.dropdown-content {
+    	display: none;
+	position: absolute;
+	background-color: black;
+	overflow: hidden;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border-radius: 20px;
+	border-width: 1px;
+	border:solid #DCDCDC;
+}
+
+.dropdown-content button{
+	cursor: pointer;
+}
+  
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+  
+  
+.show {display: block;}
+
+#signin{
+	background-color: white;
+	color: black;
+	width: 20vw;
+	font-size: 0.9vw;
+	padding: 1% 0% 0% ;
+
+}
+
+#signin label{
+	padding-bottom: 10px;
+}
+
+#signin input{
+	width: 80%;
+	border-radius: 20px;
+	border-width: 1px;
+	border:solid #DCDCDC;
+    padding: 5px;
+}
+
+#signin div{
+	padding-bottom: 3%;
+}
+
+#signin button{
+	color: white;
+	background-color: rgba(255, 177, 59);
+	padding: 2% 17% 2% 18%;
+	border: none;
+	font-size: 1vw;
+	border-radius: 10px;
+    position: relative;
+    left: -9%;
+    
+}
+
+#signin2{
+	background-color: white;
+	color: black;
+	width: 25%;
+	font-size: 0.9vw;
+	padding: 1% 0% 0% 5%;
+	margin: 2% 0% 0% 35%;
+	border: solid gray;
+	border-radius: 20px;
+	border-width: 1px;
+}
+
+#signin2 input{
+	width: 80%;
+	border-radius: 20px;
+	border-width: 1px;
+	border:solid #DCDCDC;
+    padding: 4px;
+}
+
+#signin2 label{
+	margin-bottom: 2px;
+}
+
+#signin2 button{
+	background-color: rgba(255, 177, 59);
+	padding: 2% 18% 2% 18%;
+	border: none;
+	font-size: 1vw;
+	border-radius: 5px;
+	color: white;
+	margin: 0% 0% 10% 18%;
+	cursor: pointer;
+}
+
+#signin2 div{
+	padding-bottom: 10%;
+}
+
+#logo2{
+	width: 20%;
+	margin: 2% 0% 0% 40%;
+}
+
+.button_Sign-up{
+	background-color: rgba(255, 177, 59);
+	border: none;
+	font-size: 1vw;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	width: 30%;
+	padding-bottom: 5%;
+}
+
+#divSignButton{
+	background-color: rgba(255, 177, 59);	
+	border: none;
+	font-size: 1vw;
+	border-radius: 10px;
+	display: inline-block;
+        margin-bottom: 10px;
+	padding: 2% 17% 2% 17%;
+	color: white;
+	font-size: 1vw;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#table_sellers{
+	margin: 5% 0% 0% 3%;
+}
+
+#table_sellers td{
+	
+	width: 5%;
+}
+
+.Products_cart{
+	width: 40vw;
+	height: 12vw;
+	display: flex;
+}
+
+.Products_cart img{
+	width: 45%;
+	height: 80%;
+	padding: 3% 0% 0% 2%;
+}
+.Name_City{
+	font-size: 0.9vw;
+	position: relative;
+	padding: 3% 0% 0% 2%;	
+}
+.Price_cart{
+	
+	font-size: 0.9vw;
+}
+
+.Price_cart label{
+	font-size: 1.7vw;
+	color: red;
+}
+
+.Price_cart a{
+	width: 45%;
+	height: 10%;
+	float: right;
+	padding-bottom: 20px;
+}
+
+.Price_cart a{
+	padding-bottom: 8vw;
+	cursor: pointer;
+}
+#total{
+	float: right;
+}
+#Total_label{
+	color: red;
+}
+#payment{
+	background-color: white;
+	color: black;
+	width: 25vw;
+	font-size: 0.9vw;
+}
+
+#payment label{
+	padding: 0% 0% 10% 3%;
+}
+
+#payment input{
+	width: 80%;
+	border-radius: 20px;
+	border-width: 1px;
+	border:solid #DCDCDC;	
+}
+
+#payment img{
+	width: 20%;
+}
+
+#final_address{
+	display: flex;
+	width: 80%;
+	height: 3vw;
+}
+
+#final_address input{
+	margin-top: 5%;
+}
+
+#final_payment{
+	display: flex;
+	width: 100%;
+	height: 4vw;
+}
+
+#final_payment select{
+	border-radius: 5px;
+	height: 50%;
+	margin: 7% 0% 0% 4%;
+}
+
+#final_payment input{
+	margin-top: 8%;
+        
+}
+#Total_button{
+	background-color: rgba(255, 177, 59);
+	border: none;
+	font-size: 1vw;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	width: 18%;
+	padding: 0.5% 0% 0.5% 0%;
+	margin: 4% 0% 0% 44%;
+}
+#priceTotalConfirm{
+    font-size: 3vw;
+}
+
+#your_cart{
+	width: 50%;
+        margin-top: 10%;
+	margin-left: 30%;
+}
+#order{
+	display: inline;
+	margin: 5% 0% 0% 30%;
+	border-width: 1px;
+	padding-left: 2%;
+}
+#Address{
+	background-color: white;
+	color: black;
+	width: 25vw;
+	font-size: 0.9vw;
+}
+
+#Address label{
+	padding: 0% 0% 10% 3%;
+}
+
+#Address input{
+	width: 80%;
+	border-radius: 20px;
+	border-width: 1px;
+	border:solid #DCDCDC;	
+}
+
+#Address div{
+	padding-bottom: 3%;
+}
+
+/* Style for confirm cart*/
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+a:houver{
+	text-decoration: underline; 
+}
+
+.link{
+	
+	color: white;
+	font-size:1.5vw;
+}
+
+#Product_table{
+	margin-left: 9%; 
+	display: block;
+	width: 27%;
+}
+
+#title{
+	padding: 0% 0% 0% 6%;
+	font-family: Cambria, Helvetica, sans-serif;
+	font-size:3vw;
+}
+
+#text{
+	font-size: 1.5vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	word-spacing: 1px;
+	margin-left: 6.3%;
+}
+
+#img{
+	width: 100%;
+	height: 43vw;
+	border: 1px solid rgba(169,169,169,0.8);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7.85%;
+	
+}
+
+#img{
+	width: 100%;
+}
+
+#img2{
+	float: right;
+    width: 80%;
+	height: 70%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#img3{
+	padding-top: 80px; 
+	float: left;
+	width: 80%;
+	height: 70%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#img4{
+	padding-top: 20px;	
+	margin-left: auto;
+    margin-right: auto;
+    float: right;
+    width: 100%;
+    height: 700px;
+}
+
+#text2{
+	top: 5.5em;
+	left: 3.8em;
+	color: rgba(0,0,0,1);
+	font-size:2.2vw;
+	position: relative;
+
+}
+
+#text3{
+	top: 15vw;
+	right: 7vw;
+	color: rgba(0,0,0,1);
+	font-size:2.2vw; 
+	float: right;
+	position: relative;
+}
+
+#text4{
+	padding-top: 25px;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	color: rgba(0,0,0,1);
+	font-size: 2vw;
+}
+
+#button{
+	margin-left: auto;
+	margin-right: auto;
+	top:13em;
+	left: 1em;
+	width: 10%;
+	height: 3em;
+    padding: 1em 1em;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size:1.2vw;
+    position: relative;
+}
+
+#button2{
+	margin-left: auto;
+	margin-right: auto;
+	top:15.5em;
+	left: 1em;
+	width: 10%;
+	height: 3em;
+    padding: 1em 1em;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size:1.2vw;
+    float: right;
+    position: relative;
+}
+
+#button3{
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+    padding: 1em 1em;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size:1.2vw;
+   	margin-left: 45%;
+}
+
+#frase1{
+	float: left; 
+	padding: 5% 0% 0% 37%;
+	text-align: right;
+	color: rgba(0,0,0,1);
+	font-size:2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	display: block;
+}
+
+#frase2{
+	padding: 5% 0% 0% 25%;
+	color: rgba(0,0,0,1);
+	font-size:2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+}
+
+#table1{
+	margin-left: 10%;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 5%;
+	display: inline-block;
+	width: 80%;
+}
+
+#table1 img{
+	width: 40%;
+	padding: 0px 10px 10px 0px;
+}
+
+#table2{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;
+  	text-align: center;
+}
+
+#burges{
+	background: url("imagens/fundo5.png");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	height: 48vw;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#textBurg{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: rgba(255,255,255,1);
+	font-size: 2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	padding: 0% 0% 2% 15%;
+}
+
+#frase3{
+	display: block;
+
+}
+
+.campos2{
+	
+	width: 100%;
+}
+
+#footer{
+	width: 100%;
+	height: 20vw;
+	background-color:  #0f4c81;
+	margin-top: 5em;
+	font-size: 1.2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	color: white;
+}
+
+#enlaces{
+	padding-top: 10px; 
+	margin-left: 5%;
+	width: 10%;
+	float: left;	
+}
+
+#apoyo{
+	padding-top: 10px;
+	margin-left: 7%;
+	float: left;
+}
+
+#direccion{
+	padding-top: 10px;
+	margin-left: 4%;
+	float: left;
+}
+
+#img5{
+	width: 22%;
+	height: 50%;
+	float: left;
+	margin: 5% 0% 0% 3%;
+}
+
+#input{
+	margin: 0% 0% 0% 4%;
+	width: 16%;
+	height: 9%;
+	border-radius: 5px;
+}
+
+#e-mail{
+	margin: 8% 0% 0% 4.2%;
+	float: left;
+}
+
+
+/* CSS para "quienes_somos.html"*/
+
+#presentation{
+	font-size: 1.4vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	padding: 1% 0% 0% 15%;
+	color: rgba(120,120,120);
+}
+
+.services{
+	float: left;
+	padding-left: 1%;
+	width: 18%;
+}
+
+#textServices{
+	padding: 12% 0% 0% 9.5%;
+	font-size: 1.1vw;
+	color: rgb(26,26,27);
+}
+
+#textServices2{
+	color: black; 
+	padding-top: 3%;
+}
+
+#prestations{
+	padding-top: 5%;
+}
+
+.imgRight{
+	float: right; 
+	padding-right: 15%;
+	width: 13.6vw;
+	
+}
+
+.imgLeft{
+	float: left; 
+	padding-right: 1%;
+	width: 13.6vw;
+}
+
+
+/* CSS para "programas.html" y "alojamiento.html" */
+
+#sitios{
+	width:40vw;
+	margin-left: 20%;
+	margin-right: auto;
+	font-size: 0vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	color: rgba(120,120,120);
+	display: inline-block;
+}
+
+.imgSitio{
+	width:20vw;
+}
+
+.textSitio{
+	font-size: 1.2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	color: rgba(120,120,120);
+	float: right;
+	padding-right: 2%;
+}
+
+.border{
+	border: 1px solid gray;
+	box-shadow: 5px 10px 8px #888888;
+	margin-top: 6%;
+}
+
+#titulo{
+	color: rgb(104,100,100);
+	padding-top: 3%;
+	font-size: 2.5vw;
+	font-family: Cambria, Helvetica, sans-serif;
+}
+
+#subtitulo{
+	color: rgb(30,30,30);
+	padding: 0% 0% 3% 1%;
+	font-size: 1.5vw;
+	font-family: Cambria, Helvetica, sans-serif;
+}
+
+.titulo2{
+	color: rgb(32,32,32);
+	font-size: 1.3vw;
+}
+
+#tableInputs{
+	float: right;
+	right: 8%;
+	bottom: 0%;
+	color: rgb(104,100,100);
+	font-size: 1.2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	margin: 3% 7% 0% 0%;
+}
+
+.inputs{
+	margin-bottom: 8%;
+	width: 17vw;
+	height: 2vw;
+	box-shadow: 5px 2px 8px #888888;
+}
+
+#enviar{
+	width: 10vw;
+	height: 2vw;
+	box-shadow: 5px 2px 8px #888888;
+	background-color: rgb(168,0,0);
+	color: white;
+	border:none;
+	font-size: 1vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	margin: 5% 0% 0% 20%;
+}
+
+/* CSS para "contactar.html" */
+
+#tableInputs2{
+	padding: 0% 0% 0% 20%;
+	color: rgb(104,100,100);
+	font-size: 1.2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	width: 50%
+}
+
+.inputs2{
+	margin-bottom: 3%;
+	width: 50vw;
+	height: 2vw;
+	box-shadow: 5px 2px 8px #888888;
+}
+
+#enviar2{
+	width: 10vw;
+	height: 2vw;
+	box-shadow: 5px 2px 8px #888888;
+	background-color: rgb(168,0,0);
+	color: white;
+	border:none;
+	font-size: 1vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	margin: 5% 0% 0% 45%;
+}
+
+#contacTitle{
+	color: rgb(104,100,100);
+	padding: 3% 0% 0% 18%;
+	font-size: 2.8vw;
+	font-family: Cambria, Helvetica, sans-serif;
+}
+
+#subtitulo2{
+	color: rgb(30,30,30);
+	padding: 1% 0% 3% 18%;
+	font-size: 1.5vw;
+	font-family: Cambria, Helvetica, sans-serif;
+}
+
+#description{
+    width: 100%;
+    height: 1000px;
+    opacity: 0.7;
+}
+.text-block {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  width: 15%;
+  background-color: white;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+        
+}
+    
+#descriptionTitle{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        width: 60%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3vw;
+    }
+#descriptionLabel{
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        width: 60%;
+        font-family: Verdana, Helvetica, sans-serif;
+        font-size: 1.5vw;
+    }
+    
+
+
+    
